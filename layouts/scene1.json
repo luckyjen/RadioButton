@@ -404,7 +404,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Mouse released events. Radio button selection logic. ",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -463,6 +462,19 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "This is so the players can do none of the following unless they have the not used up the amount of Actions you want them to have, 4 in this case (0, 1, 2, and 3)",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -1114,6 +1126,46 @@
                     "\"NextPlayer\""
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "This does nothing now. It's just there if I want 3 npc players along with the player later.",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "PlayerID",
+                "=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "PlayerID",
+                "=",
+                "1"
               ]
             }
           ]
