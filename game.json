@@ -88,6 +88,51 @@
         "name": "assets\\lockedbutton.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "layouts/activebutton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "layouts\\activebutton.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "layouts/offbutton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "layouts\\offbutton.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "layouts/lockedbutton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "layouts\\lockedbutton.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "layouts/attackbutton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "layouts\\attackbutton.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "layouts/attackbuttonpress.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "layouts\\attackbuttonpress.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -95,7 +140,12 @@
   "objects": [],
   "objectsGroups": [],
   "variables": [],
-  "layouts": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene1"
+    }
+  ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [],
   "externalLayouts": [],
