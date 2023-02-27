@@ -404,7 +404,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Mouse released events. Radio button selection logic. ",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -767,11 +766,6 @@
       "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -998,6 +992,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Misc totally optional, just wanted a way to restart.",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
