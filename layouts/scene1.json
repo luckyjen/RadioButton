@@ -667,16 +667,6 @@
                         "Selected",
                         "True"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Button",
-                        "Used",
-                        "False"
-                      ]
                     }
                   ],
                   "actions": [],
