@@ -465,6 +465,19 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "This is so the players can do none of the following unless they have the not used up the amount of Actions you want them to have, 4 in this case (0, 1, 2, and 3)",
+              "comment2": ""
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -754,6 +767,11 @@
       "parameters": []
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -980,7 +998,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Misc totally optional, just wanted a way to restart.",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
